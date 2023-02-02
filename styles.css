@@ -68,10 +68,15 @@ p {
 }
 
 .image-square {
-  background-image: url("https://omskzdes.ru/storage/c/2017/09/04/1504521641_250075_86.jpg");
+  background: url("https://omskzdes.ru/storage/c/2017/09/04/1504521641_250075_86.jpg") rgba(0, 0, 0, 0.56);
+  background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto 100%;
+}
+
+.square-text-white {
+  color: var(--color-white);
 }
 
 .element__text {
